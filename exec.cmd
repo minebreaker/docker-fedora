@@ -1,1 +1,1 @@
-docker exec -it my-fedora bash
+docker exec -it my-fedora bash --login
