@@ -15,4 +15,6 @@ RUN curl https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
 RUN chmod a+x ~/bin/lein
 RUN ~/bin/lein
 
+RUN echo -e "export PS1="\e[32m\u\e[0m:\e[34m\w\e[0m$ "" >> /root/.bashrc
+
 CMD ["/sbin/init"]
