@@ -1,1 +1,1 @@
-docker build -t minebreaker/my-fedora:29 .
+docker build -t minebreaker/my-fedora:31 .
