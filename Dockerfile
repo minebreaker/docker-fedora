@@ -1,15 +1,12 @@
-FROM fedora:31
+FROM fedora:34
 
-RUN dnf -y upgrade
 RUN dnf -y update
 RUN dnf -y install vim man
-RUN dnf -y install wget curl tmux socat nmap ifconfig lynx
+RUN dnf -y install wget curl tmux socat nmap lynx net-tools iputils iproute
 RUN dnf -y install java-1.8.0-openjdk-devel
 RUN dnf -y groupinstall "C Development Tools and Libraries"
 RUN dnf -y install nodejs npm
-RUN dnf -y install git jq ranger unzip unrar
-
-# dnf module
+RUN dnf -y install git jq ranger unzip ncdu
 
 RUN echo -e "\nalias python=python3\n" >> /root/.bashrc
 
