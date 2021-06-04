@@ -1,5 +1,4 @@
 dockerfile for my daily-use
 
-todo:
+TODO:
 * better PS1
-* dnf modules
