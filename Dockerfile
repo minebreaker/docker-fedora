@@ -4,7 +4,7 @@ RUN dnf -y update
 RUN dnf -y install vim man
 RUN dnf -y install wget curl tmux socat nmap lynx net-tools iputils iproute
 RUN dnf -y groupinstall "C Development Tools and Libraries"
-RUN dnf -y install git jq ranger zip unzip ncdu
+RUN dnf -y install git jq ranger zip unzip ncdu fzf
 
 # Node
 RUN dnf -y module install nodejs:14/default
