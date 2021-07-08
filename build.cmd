@@ -1,1 +1,1 @@
-docker build -t docker.pkg.github.com/minebreaker/docker-fedora/my-docker:35 .
+docker build -t docker.pkg.github.com/minebreaker/docker-fedora/my-docker:34.1 .
