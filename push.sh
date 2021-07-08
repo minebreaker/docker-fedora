@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker push docker.pkg.github.com/minebreaker/docker-fedora/my-docker:34.1
+docker push docker.pkg.github.com/minebreaker/docker-fedora/my-docker:34.2
